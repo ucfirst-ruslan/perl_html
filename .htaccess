@@ -1,0 +1,8 @@
+# use mode rewrite for pretty URL support
+RewriteEngine on
+RewriteBase /~user10/perltest/
+# if a directory or a file exists, use the request directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# otherwise forward the request to index.php
+RewriteRule ^(.*)$ index.cgi/$1 [PT]

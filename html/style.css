@@ -1,0 +1,268 @@
+* { margin: 0;  padding: 0; }
+
+body {
+    margin: 0px; padding: 0px;
+    color: #333;
+    background: #e5e5e5 url(images/bg.png) repeat-x;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #595959;
+}
+
+#content a, #content a:visited {
+    text-decoration: none;
+    border-bottom: 1px dotted #595959;
+    color: #595959;
+}
+
+#content a:hover {
+    text-decoration: underline;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0; padding: 0;
+}
+
+#container {
+    width: 980px;
+    margin: 0px auto;
+}
+
+#header-{
+    font-size: 50px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #99c23a;
+    margin: 5px 0px 0px 0px;
+}
+
+#subheader-{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #b8e06d;
+    margin: 5px 0px 12px 0px;
+    padding-left: 10px;
+}
+
+#nav {
+    color: #595959;
+    position: absolute;
+    top: 100px;
+    height: 29px;
+    display: block;
+    float: left;
+    margin: 0px auto;
+}
+
+#nav ul {
+    font: bold 13px 'Trebuchet MS', Arial, Sans-serif;
+    list-style: none;
+    margin: 0px;
+}
+
+#nav li {
+    float: left;
+    margin: 0px; padding: 0px;
+}
+
+#nav li a {
+    display: block;
+    float: left;
+    color: #595959;
+    text-decoration: none;
+    padding: 4px 10px 6px 10px;
+    margin: 0px 0px 20px 0px;
+}
+
+#nav li a:hover {
+    background: #b8e06d;
+}
+
+#nav li a.current {
+    color: #000000;
+    text-decoration: none;
+    background: #b8e06d;
+}
+
+#maincontainer {
+    clear: none;
+}
+
+#sidenav {
+    width: 200px;
+    background: #b8e06d;
+    border: 1px solid #E1E1E1;
+    float: left;
+    margin: 50px 0px 5px 0px;
+}
+
+#sidenav p {
+    padding: 5px 10px 15px 10px;
+    clear: both;
+}
+
+#sidenav ul.menu {
+    list-style: none;
+    text-align: left;
+    margin: 0px;
+    padding: 0;
+    text-decoration: none;
+    display: block;
+    font-family: 'Trebuchet MS', Arial, Sans-serif;
+}
+
+#sidenav ul.menu li{
+    border-bottom: 1px solid #E1E1E1;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+#sidenav ul.menu li.title {
+    background: #595959;
+    color: #b8e06d;
+    padding: 3px 5px 3px 10px;
+    width: 185px;
+    float: left;
+    font-weight: bold;
+}
+
+#sidenav ul.menu a {
+    width: 186px;
+    border-bottom: none;
+    float: left;
+    padding: 2px 5px 2px 9px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#sidenav ul.menu a:hover {
+    width: 186px;
+    background: #E1E1E1;
+}
+
+#sidenav a {
+    color: #777777;
+    text-decoration: none;
+    border-bottom: 1px dotted #000000;
+}
+
+#sidenav a:hover {
+    color: #000000;
+    border-bottom: 1px solid #000000;
+}
+
+#content {
+    width: 750px;
+    float: right;
+    clear: none;
+    margin: 50px 0px 5px 0px;
+}
+
+#content  h2 {
+    width: 100%;
+    border-bottom: 2px solid #595959;
+    color: #595959;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#content p {
+    padding: 0px 10px 20px 10px;
+}
+
+#footer {
+    float: left;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    border-top: 3px solid #b8e06d;
+    background: #595959;
+    color: #b8e06d;
+    padding: 5px 0px 5px 0px;
+}
+
+
+/* FORM ELEMENTS */
+form {
+    margin: 10px;
+    padding: 0 5px;
+    border: 1px solid #595959;
+    background-color: #b8e06d;
+    width: 426px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #595959;
+}
+
+input {
+    padding: 2px;
+    border: 1px solid #595959;
+    color: #777;
+}
+
+textarea {
+    width: 400px;
+    padding: 2px;
+    border: 1px solid #595959;
+    height: 100px;
+    display: block;
+    color: #777;
+}
+
+input.button {
+    margin: 0;
+    font: bolder 12px Arial, Sans-serif;
+    padding: 1px;
+    background: #595959;
+    color: #b8e06d;
+}
+
+/* search */
+form.search {
+    background: transparent;
+    border: none;
+    margin: 0; padding: 0;  
+}
+form.search input.textbox { 
+    margin: 0; 
+    width: 115px;
+    border: 1px solid #595959; 
+    background: #FFF;
+    color: #333; 
+    vertical-align: top;
+}
+form.search input.button {
+    width: 55px;
+    vertical-align: top;
+    color: #b8e06d;
+    background: #595959;
+    border: 1px solid #595959;
+}
+
+blockquote {
+    margin: 20px;
+    padding: 0 15px;
+    background: #595959;
+    border-left: 3px solid #b8e06d;
+    font-weight: bold;
+    color: #b8e06d;
+}
+
+.code {
+    margin: 20px;
+    padding: 5px 15px;
+    font: lighter 11px Verdana;
+    line-height: 14px;
+    background: #e1e1e1;
+    border: 1px solid #000;
+}
